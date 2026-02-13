@@ -6,7 +6,7 @@ import joblib
 # Load the model and feature names
 @st.cache_resource
 def load_model():
-    model = joblib.load('student_model.pkl')
+    model = joblib.load('student_model_1.pkl')
     features = joblib.load('feature_names.pkl')
     return model, features
 
